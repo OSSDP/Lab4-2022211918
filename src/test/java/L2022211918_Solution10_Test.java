@@ -64,7 +64,7 @@ public class L2022211918_Solution10_Test {
     //           "1/1"
     @Test
     public void NumbersPlus() {
-        assertEquals("1/2", test.fractionAddition("3/4+1/4"));
+        assertEquals("1/1", test.fractionAddition("3/4+1/4"));
     }
     // 测试目的：测试多个分数减法情况
     // 测试用例： "3/4+1/4"
