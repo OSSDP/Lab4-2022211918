@@ -57,7 +57,7 @@ class Solution10 {
             y *= y1;
         }
         if (x == 0) {
-            return "0/1";
+            return "0/1";//change
         }
         long g = gcd(Math.abs(x), y); // 获取最大公约数
         return Long.toString(x / g) + "/" + Long.toString(y / g);
